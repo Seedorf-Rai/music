@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/music-banner.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.hero h1,p{
+    color: white;
+}
+.hero-title{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-link{
+    color: #E8C887 !important;
+    font-size: 25px;
+}
+.nav-link:hover{
+    color: #C4842A !important;
+}
