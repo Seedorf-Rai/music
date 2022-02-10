@@ -32,3 +32,25 @@
 .nav-link:hover{
     color: #C4842A !important;
 }
+
+/* footer */
+
+.footer1{
+    width: 100%;
+    height: 80vh;
+    background-color: #9b6b5c;
+}
+
+.foot1{
+    color: #ffffff;
+    padding-top: 90px;
+}
+
+
+
+*{
+    scroll-behavior: smooth;
+}
+
+
+/* footer ends */
