@@ -33,8 +33,12 @@
     color: #C4842A !important;
 }
 
-/* footer */
+/* footer1 */
 
+.backbtn{
+    margin-top: 10px;
+    float: right;
+}
 .footer1{
     width: 100%;
     height: 80vh;
@@ -46,11 +50,31 @@
     padding-top: 90px;
 }
 
-
+.icon1{
+    justify-content: space-between;
+    font-size: 35px;
+}
 
 *{
     scroll-behavior: smooth;
 }
 
 
-/* footer ends */
+/* footer1 ends */
+
+/* footer2 */
+
+.para2{
+    width: 100%;
+    height: 7vh;
+    background-color: #3b2721;
+    color: #ffffff;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+
+/* footer2 ends */
