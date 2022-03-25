@@ -4,6 +4,9 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+.navbar{
+    height: 50px;
+}
 
 .hero{
     width: 100%;
@@ -27,8 +30,8 @@
 }
 
 .nav-link{
-    color: #E8C887 !important;
-    font-size: 25px;
+    color: #f5f4f1 !important;
+    font-size: 20px;
 }
 .nav-link:hover{
     color: #C4842A !important;
@@ -49,6 +52,9 @@
 .foot1{
     color: #ffffff;
     padding-top: 90px;
+}
+.hero-title2{
+    width: 50%; background-color: #793A26; text-align: center; padding: 15px 15px; border-radius: 10px; opacity: 0.75;
 }
 
 .icon1{
@@ -81,6 +87,47 @@
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+.social{
+    padding-left: 170px;
+}
+.payment-box{
+  padding-left: 130px;
+}
+
+@media (max-width: 800px){
+    .logo{
+        height: 16px;
+        position: relative;
+        top: -8px;
+    }
+    .navbar{
+       height: 60px;
+    }
+    .half-hero{
+        display: none;
+    }
+    .hero-title2{
+        width: 100%;
+    }
+    .pratik{
+        width: 100%;
+    }
+   .my-image{
+       scale: 1;
+   }
+   .about{
+       height: 20px;
+       width: 50px;
+       display: none;
+   }
+  
+   .half-about{
+       display: none;
+   }
+   .payment-box{
+       padding-right: 100px;
+   }
 }
 
 /* footer2 ends */
