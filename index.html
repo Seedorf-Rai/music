@@ -76,9 +76,9 @@
           <div class="hero-title">
               <div style="width: 50%; background-color: #793A26; text-align: center; padding: 15px 15px; border-radius: 10px; opacity: 0.75;">
                  <h1>
-                    Music is life
+                    Music <span class="auto-input"></span>
                  </h1>
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, magnam tempora! Dignissimos assumenda modi atque placeat at architecto tempora quis, provident facere quia veritatis nulla consequuntur quibusdam tenetur, dolores dicta illo vel saepe magni possimus ipsam alias? Quibusdam, repellendus doloremque ducimus iusto, aliquam eum ut provident cumque, aspernatur dolorum voluptas.</p>
+                 <p>Music is the art of arranging sounds in time through the elements of melody, harmony, rhythm, and timbre.[1][2] It is one of the universal cultural aspects of all human societies. General definitions of music include common elements such as pitch (which governs melody and harmony), rhythm (and its associated concepts tempo, meter, and articulation), dynamics (loudness and softness), and the sonic qualities of timbre and texture</p>
               </div>
           </div>
     </div>
@@ -203,26 +203,27 @@
             <h2>About Us</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis beatae reprehenderit explicabo, similique harum consequatur nulla sed obcaecati dolorum architecto iure labore! Consectetur quibusdam sit adipisci minima dicta sapiente. Veniam ducimus sunt accusantium deserunt repellendus? Libero unde rem voluptas architecto dolor adipisci quia voluptatem nostrum voluptatibus. Dolores, blanditiis reprehenderit? Dicta.
             </p>
-            <a href="">Read more...</a>
+           
           </div>
 
           <div class="col-md-4">
             <h3>Payment methods</h3>
             <ul>
-              <li><a href="">eSewa</a></li>
-              <li><a href="">Khalti</a></li>
-              <li><a href="">Paypal</a></li>
+              <li><a class="payment" href="">eSewa</a></li>
+              <li><a class="payment" href="">Khalti</a></li>
+              <li><a class="payment" href="">Paypal</a></li>
             </ul>
           </div>
-
+           
           <div class="col-md-4">
             <h2>Social Media</h2>
             <div class="icon1">
-            <i class="fa-brands fa-facebook-square"></i>
-            <i class="fa-brands fa-instagram-square"></i>
-            <i class="fa-brands fa-twitter-square"></i>
-            <i class="fa-brands fa-linkedin"></i>
-            </div>
+            <a  href="" style="text-decoration: none; color: white;"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="" style="color: white;"><i class="fa-brands fa-instagram-square"></i></a>
+            <a href="" style="color: white;"><i class="fa-brands fa-twitter-square"></i></a>
+            
+            <a href="" style="color: white;"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
           </div>
         </div>
       </div>
@@ -234,7 +235,14 @@
     <p> © Copyright 2022 | Hamro Music | All right reserved. </p>
     </div>
     <!-- Footer2 Ends -->
-    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed('.auto-input', {
+  strings: ["is Life","For Everyone"],
+  typeSpeed: 200,
+  loop: true,
+});
+    </script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
